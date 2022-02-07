@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.main-container{
+    height: 100vh;
+    width: 100vw;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+.header-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.search-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 650px;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: gray;
+    overflow: hidden;
+    padding: 3px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.search-input > input {
+    font-size: 21px;
+    width: 600px;
+    padding: 7px;
+    border: none;
+    outline: none;
+    color: gray;
+}
+
+.search-button{
+    color: gray;
+    cursor: pointer;
+    transform: scale(1.2);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search-button:hover{
+    transform: scale(1.5);
+}
+
+.localization{
+    display: flex;
+    font-size: 21px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.weather-container{
+    margin: 20px;
+}
+
+.weather-container > h1{
+    display: flex;
+    font-size: 70px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
